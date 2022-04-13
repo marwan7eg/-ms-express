@@ -1,0 +1,2 @@
+feather.replace();const navbar=document.getElementById("nav-wrapper"),onScroll=()=>{0<document.documentElement.scrollTop?(navbar.classList.add("is-solid"),navbar.classList.add("is-scrolled")):(navbar.classList.remove("is-solid"),navbar.classList.remove("is-scrolled"))};window.addEventListener("scroll",onScroll);let hamburger=document.querySelector(".b-navbar-menu");hamburger.addEventListener("click",function(){document.querySelector(".navbar-menu").classList.toggle("is-active")});
+//# sourceMappingURL=main.js.map

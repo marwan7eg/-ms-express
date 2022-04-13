@@ -1,0 +1,54 @@
+<!DOCTYPE html >
+<html lang="ar" dir="rtl">
+  <head> 
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <div> 
+      <div class="auth-wrapper is-single">
+        <div class="auth-nav">
+          <div class="left"></div>
+          <div class="center"><a class="header-item" href="/"><img src="logo.svg" alt="logo"/></a></div>
+          <div class="right"></div>
+        </div>
+        <div class="single-form-wrap">
+          <div class="inner-wrap">
+            <div class="auth-head has-text-centered">
+              <h2 class="title is-3 is-thin is-narrow mb-2">مرحباً بعودتك</h2>
+              <p>يرجى تسجيل الدخول إلى الحساب الخاص بك</p><a href="signup.html">ليس لدي حساب بعد</a>
+            </div>
+            <div class="form-card">
+              <form>
+                <div clas="login-form">
+                  <div class="field text-right"><span class="field-label">أسم المستخدم</span>
+                    <div class="control has-icon is-invalid">
+                      <input class="input" type="text" placeholder="أسم المستخدم"/>
+                      <div class="form-icon"><i data-feather="user"></i></div>
+                    </div>
+                  </div>
+                  <div class="field text-right"><span class="field-label">كلمة المرور</span>
+                    <div class="control has-icon is-invalid">
+                      <input class="input" type="password" placeholder="كلمة المرور"/>
+                      <div class="form-icon"><i data-feather="lock"></i></div>
+                    </div>
+                  </div>
+                  <div class="control is-invalid mt-4">
+                    <button class="button is-primary is-raised is-bold is-block">تسجيل الدخول</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="forgot-link has-text-centered"><a href="#">هل نسيت كلمة السر؟ </a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="js/main.js"> </script>
+    <script src="http://localhost:35729/livereload.js"> </script>
+  </body>
+</html>
